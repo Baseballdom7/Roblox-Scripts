@@ -2,7 +2,7 @@
 
 **This is the normal script(inside of ServerScriptService)**
 
-```lua
+
 local creator = 0
 
 
@@ -19,4 +19,4 @@ ChatService.SpeakerAdded:Connect(function(PlrName)
         Speaker:SetExtraData('Tags', {{TagText = "CREATOR", TagColor = Color3.fromRGB(229, 238, 0)}}) 
     end
 end)
-```
+
