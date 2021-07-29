@@ -19,7 +19,8 @@ script.Parent.Touched:Connect(function(hit)
     end
 end)
 
-This is the rotating coin script(a normal script inside of the coin)!:
+
+**This is the rotating coin script(a normal script inside of the coin)!**
 sphere = script.Parent
 a = 0
 repeat
@@ -28,7 +29,7 @@ repeat
     a = a+3
 until pigs == 1
 
-This are the saving leaderstats(a normal script inside of ServerScriptService):!
+**This are the saving leaderstats(a normal script inside of ServerScriptService)!**
 local dataStoreService = game:GetService("DataStoreService")
 local coinsData = dataStoreService:GetDataStore("CoinsData")
 
